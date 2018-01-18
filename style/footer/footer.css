@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1665px;
+    min-width: 1665px;
+    height: 49px;
+    background-image: url(footer.png);
+    background-repeat: round;
+    box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.9);
+
+}
+
+a {
+    color: transparent;
+    text-shadow: 0px 0px 0.2px azure;
+    text-decoration: none;
+}
+.footer p {
+    color: transparent;
+    text-shadow: 0px 0px 0.2px azure;
+}

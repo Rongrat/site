@@ -1,0 +1,48 @@
+.secondarycontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 166px;
+    height: 1500px;
+    background-color: azure;
+}
+
+.comments {
+    width: 166px;
+    height: 500px;
+    background-repeat: round;
+}
+
+.__image1 {
+    background-image: url(comment1.png)
+}
+
+.__image2 {
+    background-image: url(comment2.jpg)
+
+}
+
+.__image3 {
+    background-image: url(comment3.jpg)
+
+}
+
+.comments:hover {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    position: relative;
+    width: 300px;
+    z-index: 2;
+    right: 70%;
+}
+
+.comments p {
+    color: transparent;
+}
+
+.comments:hover > p {
+    color: azure;
+    background-color: rgba(30, 30, 30, 0.6);
+}
